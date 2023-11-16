@@ -1,0 +1,353 @@
+*
+{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;    
+}
+
+body
+{
+    display: flex;
+    flex-direction: column;
+    font-size: 19px;
+    background-color: #ccc;
+    margin: px;
+}
+
+header
+{
+    background-color: black;
+    height: 90px;
+    display: flex;
+    border: 3px solid green;
+    /*margin-bottom: 45px;*/
+}
+.header-content
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    border-radius: 0 17px 17px 0;
+}
+.header-content img
+{
+    width: 30px;
+
+}
+.header-content #registration-header
+{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    background-color: whitesmoke;
+    padding: 1px 15px;
+    border-radius: 0px 17px 17px 0px;
+    margin-bottom: 7px;
+    
+}
+h2
+{    
+    position: relative;
+    text-align: center;
+    color: gray;
+    margin-bottom: 17px;
+    color: crimson;
+}
+
+.card
+
+{
+    background-color: white;
+    /*width: 1322px;*/
+    width: 100%;
+    padding: 30px;
+    /*border-radius: 7px;*/
+    box-shadow: 0 0 19px green;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    /*margin-bottom: 34px;*/
+}
+
+h3
+{
+    font-size: 31px;
+    text-align: center;
+}
+
+p
+
+{
+    line-height: 1.2;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 17px;
+    
+}
+
+
+.main
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.form-group
+
+{
+    margin-bottom: 20px;
+}
+
+
+label 
+{
+    display: block;
+    font-weight: bold;
+    margin-bottom: 4px;
+}
+
+
+input[type="text"],
+input[type="email"]
+ {
+    width: 90%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    margin-top: 5px;
+}
+
+input:focus
+{
+    outline: none;
+    border: 1px solid green;
+    box-shadow: 3px 3px green;
+}
+
+
+textarea
+
+{
+    margin-bottom: 29px;    
+    border-radius: 3px;   
+    resize: none;  
+    border-radius: 3px;
+    border: 1px solid #ccc;
+}
+textarea:focus{
+    outline: none;
+    box-shadow: 2px 2px green;
+}
+
+button
+{
+    display: block;
+    margin: auto;
+    background-color: green;    
+    font-size: 19px;
+    padding: 10px 20px;
+    font-weight: 500;
+    border: none;
+    color: white;
+    border-radius: 3px;
+    cursor: pointer;
+}
+button:hover
+{    
+    background-color: rgb(77, 243, 77);
+}
+
+.card p
+{
+    font-size: 20px;    
+}
+.Alternatively p
+{
+    font-size: 19px;   
+}
+span
+{
+    color: green;    
+}
+.footer-container
+{
+    background-color: black;
+    display: flex;    
+    flex-direction: column;          
+    text-align: center;     
+}
+.footer-content
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;   
+}
+.footer-row
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+    gap: 90px;
+    color: white;
+}
+.footer-item img
+{
+    display: block;
+    width: 89px;
+    margin: auto;
+}
+.footer-item ul
+{
+    list-style: none;
+    padding: 0;
+}
+.footer-item ul li
+{
+    display: block;
+    font-size: 14px;
+}
+
+.footer-item ul li a
+{
+    text-decoration: none;
+    color: black;
+    line-height: 1.5;
+    color: white;
+}
+.footer-item ul li a:hover 
+{
+    color: white;
+    text-decoration: underline;
+    border-color: black;
+    border: 1px solid white;
+    padding: 3px 6px;
+    background-color: black;
+    border-radius: 9px;
+    background-color: green;
+}
+h4
+{
+ font-weight: bolder;
+ font-size: 19px;
+ text-decoration: underline;
+ margin-top: 12px;
+ margin-bottom: 2px; 
+}
+#email,
+#whatsapp,
+#calls
+{
+    font-style: italic;
+    color: black;
+    font-weight: 700;
+    color: green;
+}
+#copyright
+{
+    font-size: 15px;
+    font-style: italic;
+    text-align: center;
+    color: white;
+}
+.main-footer
+{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(12, 11, 11);
+    height: 50px;
+}
+.footer-text
+{
+    font-size: 19px;
+    color: #eff0ea;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+#name
+{
+    
+    font-weight: 700;
+    color: green;    
+    font-size: 18px;    
+}
+
+.footer-image-container
+{
+    display: flex;
+    align-items: center;    
+}
+
+.footer-image-container img
+{
+    margin-left: 10px;
+    width: 70px;
+    border-radius: 5px;
+    margin-right: 12px;   
+}
+@media screen and (max-width:850px) 
+{
+
+    body 
+    {
+        font-size: 15px;
+    }
+
+    .card
+    {
+        display: block;
+        /*width: 430px;*/
+    }
+    .main
+    {
+        display: block;
+    }
+
+    button
+    {
+        margin-bottom: 20px;
+
+    }
+    .footer-container
+    {
+        display: block;
+        height: 290px;
+    }
+    h4 
+    {
+        display: none;
+    }
+    #contact
+    {
+        display: none;
+    }
+    .footer-row
+    {
+        display: block;
+        justify-content: center;
+        align-items: center;
+        line-height: 1.5;
+    }
+    .footer-container
+    {
+        height: fit-content;
+    }
+    #name
+    {
+        font-size: 14px;
+    }
+    .footer-image-container img
+    {
+    margin-left: 10px;
+    width: 40px;
+    border-radius: 5px;
+    margin-right: 12px;
+    }
+    
+}
+
+

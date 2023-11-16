@@ -1,0 +1,601 @@
+*
+{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body
+{
+    margin: 1px;
+    font-family: Georgia, 'Times New Roman', Times, serif; 
+    padding: 9px;   
+}
+
+.header
+{
+    background-color: lightgrey;
+    padding: 1px;
+    margin: 0;     
+    width: 100%;
+    height: 90px;
+    border-radius: 2px;
+    position: fixe;
+   
+
+}
+.logo-img
+{
+    width: 56px;
+    margin-right: 89px;
+}
+.container
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    margin: 10px;
+    color: white; 
+    
+}
+nav ul
+{
+    list-style: none;
+    padding: 0;
+    margin-top: 30px;
+    margin-bottom: 15px;       
+}
+nav ul li
+{
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    font-weight: 900;   
+}
+nav ul li a
+{
+    text-decoration: none;
+    color: black;
+    font-size: 19px;
+    line-height: 1.4;
+    margin-right: 2rem;
+    padding: 5px; 
+    
+}
+nav ul li a:hover
+{
+    background-color: black;
+    color: white;
+    border-radius: 10px 5px;
+}
+
+nav ul li a:active
+{
+    text-decoration: overline;
+}
+.mobile-btn
+{
+    display: none;
+    width: 70px;
+}
+#log-in
+{
+    min-width: 50px;
+    max-width: 100px;
+    min-height: 27px;
+    max-height: 32px;
+    background-color: black;
+    color: #eff0ea;
+    border-radius: 5px;
+    font-weight: 600;
+    text-transform: capitalize;    
+}
+#log-in:hover 
+{
+    background-color: #eff0ea;
+    color: black;
+}
+.welcome
+{
+    background-color: #eff0ea;
+    padding-top: 30px;
+    
+}
+.btn
+{
+    padding: 16px 74px;
+    border: 1px solid grey;
+    color: rgb(159, 118, 87);
+    background-color: white;
+    font-weight: 200;
+    display: block;
+    margin: auto;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+
+.btn:hover
+{
+    background-color: rgba(0, 0, 0, 87%);
+    color: white;
+}
+
+
+section p
+{
+    font-size: 19px;
+    text-align: center;
+    line-height: 1.4;
+    margin-bottom: 20px;
+}
+
+#inline
+{
+    font-style: italic;
+    font-weight: 900;      
+}
+.button-container
+{
+    display: flex;
+    flex-direction: row;  
+    justify-content: center;
+    align-items: center;
+    gap: 150px;
+}
+
+.button-container a
+{
+    text-decoration: none;
+}
+.button
+{
+    color: black;
+    background-color: #ffff;
+    padding: 9px 19px;
+    border: 1px solid grey;
+    border-radius: 5px;
+    font-weight: 600;
+    margin-bottom: 56px;   
+
+}
+
+.button:hover
+{
+    color: white;
+    background-color: green; 
+}
+h1
+{
+    font-style: italic;
+    font-weight: 900;
+    text-align: center;
+    margin-bottom: 16px;
+    font-size: 29px;   
+}
+
+
+h3
+{
+    margin-bottom: -12px;
+    margin-left: 140px;
+}
+
+#today-h3
+{
+    margin-right: 152px;
+}
+
+
+
+#wrapper
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #eff0ea;
+    text-align: center;    
+}
+
+#XXX
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    background-color:#eff0ea94;
+    background-color: green;
+    width: 100%;
+    padding: 20px; 
+}
+
+
+#recent-h3
+{
+    margin-left: 109px;
+    font-weight: 600;
+}
+
+.content-table
+{
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 12px;
+    min-width: 400px;
+    overflow: hidden;
+    border-radius: 5px;    
+}
+
+.content-table thead tr
+{
+    background-color: lightgray;
+    text-align: left;
+    font-weight: bold;
+     
+}
+
+.content-table th,
+.content-table td
+{
+    padding: 12px 15px;
+}
+.content-table tbody tr
+{
+    border-bottom: 1px solid lightgrey;
+ 
+}
+
+.content-table tbody tr:nth-of-type(even)
+
+{
+    background-color: white;
+}
+
+.More
+{
+    background-color: black;    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    width: 100%;    
+    margin: auto;
+}
+
+#more-box
+{
+    margin-bottom: 19px;
+    color: #eff0ea;    
+}
+
+
+.More-container
+{
+    display: flex;    
+}
+.box
+{
+    display: flex;
+    flex-grow: 1;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 130px;
+    height: 90px;
+    background-color: green;
+    margin: 20px 50px;
+    text-decoration: none;
+    color: white;
+    font-weight: 900;
+    padding: 5px;
+    border-radius: 5px 19px;
+    border: 1px solid #ccc;    
+}
+.box:hover
+{
+    background-color: white;
+    color: black;
+}
+.footer-container
+{
+    background-color: grey;
+    display: flex;    
+    flex-direction: column;          
+    text-align: center;    
+}
+.footer-content
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;   
+}
+.footer-row
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+    gap: 90px;
+}
+.footer-item img
+{
+    display: block;
+    width: 89px;
+    margin: auto;
+}
+
+
+.footer-item ul
+{
+    list-style: none;
+    padding: 0;
+}
+
+.footer-item ul li
+{
+    display: block;
+    font-size: 14px;
+}
+
+.footer-item ul li a
+{
+    text-decoration: none;
+    color: black;
+    line-height: 1.5
+}
+.footer-item ul li a:hover 
+{
+    color: white;
+    text-decoration: underline;
+    border-color: black;
+    border: 1px solid white;
+    padding: 3px 6px;
+    background-color: black;
+    border-radius: 9px;
+}
+h4
+{
+ font-weight: bolder;
+ font-size: 19px;
+ text-decoration: underline;
+ margin-top: 12px;
+ margin-bottom: 2px;
+}
+#email,
+#whatsapp,
+#calls
+{
+    font-style: italic;
+    color: black;
+    font-weight: 700;
+}
+
+
+#copyright
+{
+    font-size: 15px;
+    font-style: italic;
+    text-align: center;
+}
+.main-footer
+{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    height: 50px;
+}
+.footer-text
+{
+    font-size: 19px;
+    color: #eff0ea;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+#name
+{
+    
+    font-weight: 700;
+    color: green;    
+    font-size: 18px;    
+}
+
+.footer-image-container
+{
+    display: flex;
+    align-items: center;    
+}
+
+.footer-image-container img
+{
+    margin-left: 10px;
+    width: 70px;
+    border-radius: 5px;
+    margin-right: 12px;   
+}
+
+#inline,
+#name
+{
+    animation: blink-animation 3s infinite;
+    color: green;
+    font-size: 29px;
+    font-weight: 900;
+   text-shadow: 1px 1px 1px whit;
+    text-decoration: underline;
+}
+
+@keyframes blink-animation {
+    0%{
+        opacity: 1;
+    }
+
+    50%
+    {
+        opacity: 0;
+    }
+    100%
+    {
+        opacity: 1;
+    }
+}
+
+@media screen and (max-width:1195px)
+{
+
+    nav ul
+    {
+        display: none;
+    }
+    #log-in
+    {
+        display: non;
+        
+
+    }
+
+    .mobile-view
+    {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: auto;
+        margin: 0;
+    }
+    .logo-img
+    {
+        display: non;
+    }
+    .mobile-btn
+    {
+        display: block;
+        margin-left: px;
+        width: 45px;
+    }
+    h1 
+    {
+        margin-bottom: -5px;
+        margin-top: -29px;
+    }
+    section p 
+    {
+        font-size: 15px;
+        text-align: center;
+    }
+
+    .button-container
+    {
+        display: block;        
+        margin-bottom: -20px;
+        
+    }
+
+    .button
+    {
+        display: block;
+        width: 50%;
+        margin: auto;
+        margin-bottom: 20px;
+    }
+    #today-h3
+    {
+        margin-top: 20px;
+    }
+
+    .mobile-btn
+    {
+        display: inline-block;
+    }
+
+    h1
+    {
+        margin-top: 1px;
+        margin-bottom: 12px;
+    }
+    #XXX
+    {
+        display: grid;
+        grid-template-columns:1fr;
+        height: fit-content;  
+        place-items: center;        
+    }
+
+}
+
+/*Responsive design for more prediction section*/
+@media screen and (max-width:850px)
+{
+    .More
+    {      
+
+       height: 650px;
+       
+    }
+    .More-container
+    {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);       
+        
+    }
+    .box
+    {
+        min-height: 100px;
+        margin: 5px 10px;        
+
+    }
+
+    body
+    {
+        margin: 0;    
+        padding: 0;
+    
+    }
+
+}
+
+/** FOOTER RESPONSIVE DESIGN*/
+
+@media screen and (max-width:600px)
+{
+
+    .footer-container
+    {
+        display: block;
+        height: 290px;
+    }
+    h4 
+    {
+        display: none;
+    }
+    #contact
+    {
+        display: none;
+    }
+    .footer-row
+    {
+        display: block;
+        justify-content: center;
+        align-items: center;
+        line-height: 1.5;
+    }
+    .footer-container
+    {
+        height: fit-content;
+    }
+    #name
+    {
+        font-size: 14px;
+    }
+    .footer-image-container img
+    {
+    margin-left: 10px;
+    width: 40px;
+    border-radius: 5px;
+    margin-right: 12px;
+    }
+}
+
+
+
